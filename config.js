@@ -85,16 +85,20 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'AudialFly',
+        name: 'SoundCloud',
         link: 'https://soundcloud.com/user-404286775',
       },
       {
-        name: 'Enter Darkness #1',
-        link: 'https://soundcloud.com/user-404286775/enter-darkness-1',
+        name: 'Spotfiy',
+        link: 'https://open.spotify.com/user/gregnrobinson-ca',
       },
       {
-        name: 'Enter Darkness #2',
-        link: 'https://soundcloud.com/user-404286775/enter-darkness-2',
+        name: 'Favourite DJ Sets',
+        link: 'https://www.youtube.com/watch?v=dTyT-nNPL8g&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy',
+      },
+      {
+        name: 'Enter Darkness',
+        link: 'https://soundcloud.com/user-404286775/sets/enter-darknes',
       },
       {
         name: 'Enter Darkness #2',
