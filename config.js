@@ -65,6 +65,12 @@ const CONFIG = {
       icon: 'youtube',
       link: 'https://youtube.com/',
     },
+    {
+      id: '6',
+      name: 'Linkedin',
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/gregnrobinson/',
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
