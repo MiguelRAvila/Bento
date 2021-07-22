@@ -61,7 +61,7 @@ const CONFIG = {
     },
     {
       id: '5',
-      name: 'Wakatime',
+      name: 'code',
       icon: 'time',
       link: 'https://wakatime.com/@gregnrobinson',
     },
