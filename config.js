@@ -55,8 +55,8 @@ const CONFIG = {
     },
     {
       id: '4',
-      name: 'Languages',
-      icon: 'bookmark',
+      name: 'Wakatime',
+      icon: 'logos-wakatime',
       link: 'https://wakatime.com/@gregnrobinson',
     },
     {
