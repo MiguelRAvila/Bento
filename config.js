@@ -48,7 +48,7 @@ const CONFIG = {
       link: 'https://mail.google.com/',
     },
     {
-      id: '3',
+      id: '5',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/r',
@@ -60,7 +60,7 @@ const CONFIG = {
       link: 'https://wakatime.com/@gregnrobinson',
     },
     {
-      id: '5',
+      id: '3',
       name: 'Youtube',
       icon: 'youtube',
       link: 'https://youtube.com/',
