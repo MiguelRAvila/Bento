@@ -94,7 +94,7 @@ const CONFIG = {
       },
       {
         name: 'Favourite DJ Sets',
-        link: 'https://www.youtube.com/watch?v=dTyT-nNPL8g&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy',
+        link: 'https://www.youtube.com/watch?v=GJkuTx1DQzg&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=60',
       },
       {
         name: 'Enter Darkness',
