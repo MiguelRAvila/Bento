@@ -43,27 +43,27 @@ const CONFIG = {
     },
     {
       id: '2',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
+    },
+    {
+      id: '3',
       name: 'Mail',
       icon: 'mail',
       link: 'https://mail.google.com/',
     },
     {
-      id: '5',
+      id: '4',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/r',
     },
     {
-      id: '4',
+      id: '5',
       name: 'Wakatime',
-      icon: 'logos-wakatime',
+      icon: 'time',
       link: 'https://wakatime.com/@gregnrobinson',
-    },
-    {
-      id: '3',
-      name: 'Youtube',
-      icon: 'youtube',
-      link: 'https://youtube.com/',
     },
     {
       id: '6',
