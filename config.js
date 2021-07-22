@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Greg',
   imageBackground: false,
   openInNewTab: true,
 
@@ -22,7 +22,7 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: 'aa600cf38d4ea1abab0f93b0c2ae87b8',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
   weatherLatitude: '37.774929',
@@ -39,37 +39,31 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/gregnrobinson',
     },
     {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
-    },
-    {
-      id: '4',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/r',
     },
     {
-      id: '5',
-      name: 'Reddit',
+      id: '4',
+      name: 'Languages',
       icon: 'bookmark',
-      link: 'https://reddit.com',
+      link: 'https://wakatime.com/@gregnrobinson',
     },
     {
-      id: '6',
-      name: 'Odysee',
+      id: '5',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -85,38 +79,34 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'AudialFly',
+        link: 'https://soundcloud.com/user-404286775',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Enter Darkness #1',
+        link: 'https://soundcloud.com/user-404286775/enter-darkness-1',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Enter Darkness #2',
+        link: 'https://soundcloud.com/user-404286775/enter-darkness-2',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Enter Darkness #2',
+        link: 'https://soundcloud.com/user-404286775/enter-darkness-3',
       },
     ],
     secondList: [
       {
         name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        link: 'https://www.linkedin.com/in/gregnrobinson/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Photography',
+        link: 'https://gallery.gregrobinson.ca/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
-      },
-      {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Instagram',
+        link: 'https://www.instagram.com/6reg.robinson/',
       },
     ],
   },
