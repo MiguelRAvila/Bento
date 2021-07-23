@@ -100,10 +100,6 @@ const CONFIG = {
         name: 'Enter Darkness',
         link: 'https://soundcloud.com/user-404286775/sets/enter-darknes',
       },
-      {
-        name: 'Enter Darkness #2',
-        link: 'https://soundcloud.com/user-404286775/enter-darkness-3',
-      },
     ],
     secondList: [
       {
