@@ -89,10 +89,6 @@ const CONFIG = {
         link: 'https://soundcloud.com/user-404286775',
       },
       {
-        name: 'Spotfiy',
-        link: 'https://open.spotify.com/user/gregnrobinson-ca',
-      },
-      {
         name: 'Favourite DJ Sets',
         link: 'https://www.youtube.com/watch?v=avs7kmerglc&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=48',
       },
