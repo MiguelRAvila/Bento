@@ -46,6 +46,10 @@
 
 /* S T Y L E S */
 
+.nowplaying {
+  padding-left: 50px;
+}
+
 * {
   margin: 0;
   padding: 0;
