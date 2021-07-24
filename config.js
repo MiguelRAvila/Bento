@@ -71,6 +71,12 @@ const CONFIG = {
       icon: 'linkedin',
       link: 'https://www.linkedin.com/in/gregnrobinson/',
     },
+    {
+      id: '7',
+      name: 'nowplaying',
+      icon: 'spotify',
+      link: 'https://open.spotify.com/user/gregnrobinson-ca',
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
