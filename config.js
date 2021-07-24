@@ -96,10 +96,6 @@ const CONFIG = {
         name: 'Favourite DJ Sets',
         link: 'https://www.youtube.com/watch?v=avs7kmerglc&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=48',
       },
-      {
-        name: 'Enter Darkness',
-        link: 'https://soundcloud.com/user-404286775/sets/enter-darknes',
-      },
     ],
     secondList: [
       {
