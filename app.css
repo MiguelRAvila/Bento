@@ -231,6 +231,10 @@ body {
   grid-row: 2;
   grid-column: 3;
 }
+.buttonLink__link-7 {
+  grid-row: 3;
+  grid-column: 1;
+}
 .buttonLink__link:hover {
   background-color: var(--accent);
 }
