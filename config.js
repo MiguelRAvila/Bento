@@ -51,13 +51,13 @@ const CONFIG = {
       id: '3',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.google.com/',
+      link: 'https://mail.google.com/mail/u/1/#inbox',
     },
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://calendar.google.com/calendar/u/1/r',
     },
     {
       id: '5',
