@@ -94,7 +94,7 @@ const CONFIG = {
       },
       {
         name: 'Jira',
-        link: 'https://rnd-bitbucket.intelerad.com/dashboard',
+        link: 'https://jira.intelerad.com/secure/Dashboard.jspa',
       },
       {
         name: 'Bitbucket',
