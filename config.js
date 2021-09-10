@@ -85,6 +85,10 @@ const CONFIG = {
   lists: {
     firstList: [
       {
+        name: 'Data Studio',
+        link: 'https://datastudio.google.com/',
+      },
+      {
         name: 'Phronesis Mail',
         link: 'https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX&storeLocale=true',
       },
