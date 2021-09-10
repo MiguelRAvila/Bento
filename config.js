@@ -85,8 +85,8 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'SoundCloud',
-        link: 'https://soundcloud.com/user-404286775',
+        name: 'Phronesis Mail',
+        link: 'https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX&storeLocale=true',
       },
       {
         name: 'Favourite Sets',
