@@ -78,7 +78,7 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'laptop-code',
   secondListIcon: 'cloud',
 
   // Links
