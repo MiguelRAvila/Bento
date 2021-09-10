@@ -95,16 +95,16 @@ const CONFIG = {
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://www.linkedin.com/in/gregnrobinson/',
+        name: 'GCP',
+        link: 'https://console.cloud.google.com/',
       },
       {
-        name: 'Photography',
-        link: 'https://gallery.gregrobinson.ca/',
+        name: 'AWS',
+        link: 'https://signin.aws.amazon.com/',
       },
       {
-        name: 'Instagram',
-        link: 'https://www.instagram.com/6reg.robinson/',
+        name: 'Azure',
+        link: 'https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorMenuBlade/overview',
       },
     ],
   },
