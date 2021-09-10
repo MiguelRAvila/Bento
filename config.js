@@ -93,7 +93,11 @@ const CONFIG = {
         link: 'https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX&storeLocale=true',
       },
       {
-        name: 'Favourite Sets',
+        name: 'Jira',
+        link: 'https://rnd-bitbucket.intelerad.com/dashboard',
+      },
+      {
+        name: 'Bitbucket',
         link: 'https://www.youtube.com/watch?v=avs7kmerglc&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=48',
       },
     ],
