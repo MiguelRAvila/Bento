@@ -106,6 +106,10 @@ const CONFIG = {
         name: 'Azure',
         link: 'https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorMenuBlade/overview',
       },
+      {
+        name: 'Project Tracker',
+        link: 'https://www.notion.so/arctiqhome/d73dd827e83449f48b86af4795a851be?v=109b84e212df451da3848e89623d179a',
+      },
     ],
   },
 };
