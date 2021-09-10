@@ -89,7 +89,7 @@ const CONFIG = {
         link: 'https://soundcloud.com/user-404286775',
       },
       {
-        name: 'Favourite DJ Sets',
+        name: 'Favourite Sets',
         link: 'https://www.youtube.com/watch?v=avs7kmerglc&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=48',
       },
     ],
