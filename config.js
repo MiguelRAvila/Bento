@@ -104,7 +104,7 @@ const CONFIG = {
       },
       {
         name: 'AWS',
-        link: 'https://signin.aws.amazon.com/',
+        link: 'https://console.aws.amazon.com/console/home?region=us-east-1#',
       },
       {
         name: 'Azure',
