@@ -97,8 +97,8 @@ const CONFIG = {
         link: 'https://jira.intelerad.com/secure/Dashboard.jspa',
       },
       {
-        name: 'Bitbucket',
-        link: 'https://www.youtube.com/watch?v=avs7kmerglc&list=PLFutnYq-TXU6MDNayUFAzbmIpj-fDEZqy&index=48',
+        name: 'Waka Stats',
+        link: 'https://wakatime.com/dashboard',
       },
     ],
     secondList: [
