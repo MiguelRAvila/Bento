@@ -93,10 +93,6 @@ const CONFIG = {
         link: 'https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX&storeLocale=true',
       },
       {
-        name: 'Jira',
-        link: 'https://jira.intelerad.com/secure/Dashboard.jspa',
-      },
-      {
         name: 'Waka Stats',
         link: 'https://wakatime.com/dashboard',
       },
