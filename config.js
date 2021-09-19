@@ -93,8 +93,8 @@ const CONFIG = {
         link: 'https://privateemail.com/appsuite/#!!&app=io.ox/mail&folder=default0/INBOX&storeLocale=true',
       },
       {
-        name: 'Waka Stats',
-        link: 'https://wakatime.com/dashboard',
+        name: 'Grafana',
+        link: 'http://grafana.192.168.0.82.nip.io/d/g5ilYXMnk/kubernetes-cluster-monitoring-via-prometheus?orgId=1&refresh=10s',
       },
     ],
     secondList: [
@@ -109,10 +109,6 @@ const CONFIG = {
       {
         name: 'Azure',
         link: 'https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorMenuBlade/overview',
-      },
-      {
-        name: 'Google Data Studio',
-        link: 'https://datastudio.google.com/',
       },
     ],
   },
