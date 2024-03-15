@@ -51,19 +51,19 @@ const CONFIG = {
       id: '3',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.google.com/mail/#inbox',
+      link: 'https://outlook.office.com/mail/',
     },
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar',
+      link: 'https://outlook.office.com/calendar/view/month',
     },
     {
       id: '5',
-      name: 'Wakatime',
+      name: 'ChatGPT',
       icon: 'code',
-      link: 'https://wakatime.com/@gregnrobinson',
+      link: 'https://chat.openai.com/',
     },
     {
       id: '6',
