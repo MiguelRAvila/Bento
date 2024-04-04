@@ -57,7 +57,7 @@ const CONFIG = {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://outlook.office.com/calendar/view/month',
+      link: 'https://outlook.office.com/calendar/view/week',
     },
     {
       id: '5',
