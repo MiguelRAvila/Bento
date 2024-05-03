@@ -179,6 +179,13 @@ body {
   color: var(--fg);
 }
 
+#quotes{
+  text-align: center;
+  font-size: 2vh;
+  padding-top: 30px;
+  color: var(--fg);
+}
+
 .weatherIcon img {
   width: 70px;
   height: 70px;
