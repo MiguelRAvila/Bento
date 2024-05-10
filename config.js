@@ -5,6 +5,34 @@
 // │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
+// credit to @Lainfall for the original apikey function https://github.com/Lainfall/SP/blob/master/assets/js/weather.js
+function getWeatherKey() {
+	const currentKey = localStorage.getItem("WEATHER_KEY");
+	if (currentKey) return currentKey;
+  
+	const newKey = window.prompt("What's your Weather API key?");
+	localStorage.setItem("WEATHER_KEY", newKey);
+	return newKey;
+}
+
+function getLat() {
+	const currentLat = localStorage.getItem("LAT");
+	if (currentLat) return currentLat;
+  
+	const newLat = window.prompt("Whats your Latitude");
+	localStorage.setItem("LAT", newLat);
+	return newLat;
+}
+
+function getLong(){
+	const currentLong = localStorage.getItem("LONG");
+	if (currentLong) return currentLong;
+  
+	const newLong = window.prompt("Whats your Longitude");
+	localStorage.setItem("LONG", newLong);
+	return newLong;
+}
+
 const CONFIG = {
 	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
 	// ├┴┐├─┤└─┐││  └─┐
@@ -26,14 +54,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: getWeatherKey(), // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: getLat(),
+	defaultLongitude: getLong(),
 
 	// Autochange
 	autoChangeTheme: true,
