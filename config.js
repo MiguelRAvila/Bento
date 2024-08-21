@@ -11,16 +11,16 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Nick',
+	name: '',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: '',
+	greetingAfternoon: '',
+	greetingEvening: '',
+	greetingNight: '',
 
 	// Layout
 	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
@@ -61,19 +61,19 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail-open',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: '1337x',
+			icon: 'arrow-down-from-line',
+			link: 'https://1337x.to',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'pseudo-flix',
+			icon: 'tv',
+			link: 'https://pseudo-flix.pro/',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -100,31 +100,31 @@ const CONFIG = {
 			id: '2',
 			name: 'twitter',
 			icon: 'twitter',
-			link: 'https://twitter.com/',
+			link: 'https://x.com/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'twitch',
+			icon: 'cctv',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.ca',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'netflix',
+			icon: 'clapperboard',
+			link: 'https://www.netflix.com/',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'braflix',
+			icon: 'tv-minimal-play',
+			link: 'https://www.braflix.ru/',
 		},
 	],
 
