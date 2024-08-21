@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Nick',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -23,11 +23,11 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '78e40cc32a6ccceefeb8697b86200d15', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -60,7 +60,7 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'Mail',
-			icon: 'mail',
+			icon: 'mail-open',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
@@ -139,8 +139,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Youtube',
+					link: 'https://www.youtube.com',
 				},
 				{
 					name: 'Classic',
@@ -169,12 +169,12 @@ const CONFIG = {
 					link: 'https://www.1337x.to',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Github',
+					link: 'https://github.com/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Sudo-Flix',
+					link: 'https://pseudo-flix.pro/',
 				},
 			],
 		},
