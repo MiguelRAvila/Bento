@@ -53,9 +53,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Bluesky',
+			icon: 'apple',
+			link: 'https://bsky.app/',
 		},
 		{
 			id: '2',
