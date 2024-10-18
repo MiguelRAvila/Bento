@@ -14,7 +14,9 @@ function displayClock() {
 	var hh = d.getHours();
 	var ampm = '';
 
-	if (CONFIG.twelveHourFormat) {
+	const isTwelveHour = localStorage.getItem("Twelve Hour") === "true";
+
+	if (isTwelveHour) {
 		ampm = hh >= 12 ? ' pm' : ' am';
 		hh = hh % 12;
 		hh = hh ? hh : 12;
