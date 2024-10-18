@@ -396,6 +396,7 @@ body {
 .timeFormatBlock > button:hover{
   background-color: #57a0d9;
   color: #19171a;
+  font-size: 18pt;
   
 }
 #timeFormat1{
