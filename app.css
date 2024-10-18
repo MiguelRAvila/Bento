@@ -361,3 +361,43 @@ body {
     padding-right: 100px;
   }
 }
+
+/* Time Format Styles */
+
+.timeFormatBlock{
+  background: #201e21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+}
+
+.timeFormatBlock > button{
+  background-color: #2c292e;
+  color: white;
+  padding: 5px;
+  font-size: 16pt;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
+}
+
+.timeFormatBlock > button:hover{
+  background-color: #57a0d9;
+  color: #19171a;
+  
+}
+#timeFormat1{
+  margin-right: 5px;
+}
+
+#timeFormat2{
+  margin-left: 5px;
+}
