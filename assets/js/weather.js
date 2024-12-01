@@ -39,20 +39,31 @@ function setPosition(position) {
 
 function getWeather(latitude, longitude) {
 	let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
+	
 	fetch(api)
-		.then(function(response) {
-			let data = response.json();
-			return data;
+		.then(response => {
+			if (!response.ok) {
+				throw new Error(`API Error: ${response.status} - ${response.statusText}`);
+			}
+			return response.json();
 		})
-		.then(function(data) {
-			let celsius = Math.floor(data.main.temp - KELVIN);
-			weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
-			weather.description = data.weather[0].description;
-			weather.iconId = data.weather[0].icon;
+		.then(data => {
+			// Validate the API response
+			if (!data.main || !data.weather || !data.weather[0]) {
+				
+				return;
+			}
+			
+			const celsius = Math.floor(data.main.temp - KELVIN);
+			weather.temperature.value = tempUnit === 'C' 
+				? celsius 
+				: Math.floor(celsius * 9 / 5 + 32);
+			weather.description = data.weather[0]?.description || 'Unknown';
+			weather.iconId = data.weather[0]?.icon || 'default';
 		})
-		.then(function() {
-			displayWeather();
-		});
+		.then(displayWeather)
+		.catch(error => console.error('Error fetching weather data:', error.message || error));
+}
 }
 
 function displayWeather() {
