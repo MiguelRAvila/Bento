@@ -1,11 +1,14 @@
-// Get the hour
+// ┌─┐┬─┐┌─┐┌─┐┌┬┐┬┌┐┌┌─┐┌─┐
+// │ ┬├┬┘├┤ ├┤  │ │││││ ┬└─┐
+// └─┘┴└─└─┘└─┘ ┴ ┴┘└┘└─┘└─┘
+// Function to set Greetings
+
 const today = new Date();
 const hour = today.getHours();
 
 // Here you can change your name
 // const name = CONFIG.name;
 
-// Here you can change your greetings
 const gree1 = `${CONFIG.greetingNight}\xa0`;
 const gree2 = `${CONFIG.greetingMorning}\xa0`;
 const gree3 = `${CONFIG.greetingAfternoon}\xa0`;

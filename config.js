@@ -6,9 +6,9 @@
 // └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
 const CONFIG = {
-  // ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
-  // ├┴┐├─┤└─┐││  └─┐
-  // └─┘┴ ┴└─┘┴└─┘└─┘
+	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
+	// ├┴┐├─┤└─┐││  └─┐
+	// └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
   name: 'Greg',
@@ -27,12 +27,13 @@ const CONFIG = {
   weatherUnit: 'C',
   weatherLatitude: '37.774929',
   weatherLongitude: '-122.419418',
+
+	// Weather
+	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'C', // 'F', 'C'
+	language: 'en', // More languages in https://openweathermap.org/current#multi
   
-
-  // ┌─┐┌─┐┬─┐┌┬┐┌─┐
-  // │  ├─┤├┬┘ ││└─┐
-  // └─┘┴ ┴┴└──┴┘└─┘
-
   // Links
   cards: [
     {
@@ -73,10 +74,9 @@ const CONFIG = {
     },
   ],
 
-  // ┬  ┬┌─┐┌┬┐┌─┐
-  // │  │└─┐ │ └─┐
-  // ┴─┘┴└─┘ ┴ └─┘
-
+	// Autochange
+	autoChangeTheme: true,
+  
   //Icons
   firstListIcon: 'vial',
   secondListIcon: 'cloud',

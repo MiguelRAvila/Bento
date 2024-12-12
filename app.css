@@ -1,43 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* 
+// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
+// ╠╩╗║╣ ║║║ ║ ║ ║
+// ╚═╝╚═╝╝╚╝ ╩ ╚═╝ 
+*/
 
 /* V A R I A B L E S */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+
 :root {
-  /* Fonts  */
-  --fsg: 12vh; /* Time and Greetings */
-  --fsm: 8vh; /* Date */
-  --fss: 3vh; /* Greetings and Weather widger */
-  --fses: 2vh; /* Links List */
+  /* Font Size */
+  --fg-primary: 12vh; /* Time and Greetings */
+  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-date: 8vh; /* Date */
+  --fg-list: 2vh; /* Links List */
+  --icon: 3vh; /* Icon Size */
 
-  /* Light theme  */
-  --accent: #61b0f1; /* Hover color */
-  --bg: #f5f5f5; /* Background color */
-  --sbg: #e4e6e6; /* Cards color */
-
+  /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
-  --sfg: #3a3a3a; /* Sceondary Foreground color */
+  --sfg: #494949; /* Sceondary Foreground color */
+
+  /* Light Colors  */
+  --accent: #57a0d9; /* Hover color */
+  --background: #f5f5f5; /* Background color */
+  --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
-
-  /* Uncoment this section to get the 
-    image wallpaper. You can also 
-    change the --imgcol value 
-    to make the filter to your own */
-
-  --imgbg: url(assets/background.jpg);
+  --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.7)
   ); /* Filter color */
 }
 
-/* Dark theme  */
 .darktheme {
-  --accent: #61b0f1; /* Hover color */
-  --bg: #19171a; /* Background color */
-  --sbg: #201e21; /* Cards color */
+  /* Dark Colors  */
+  --accent: #57a0d9; /* Hover color */
+  --background: #19171a; /* Background color */
+  --cards: #201e21; /* Cards color */
+
+  /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
-  --sfg: #3a3a3a; /* Secondary Foreground color */
+  --sfg: #2c292e; /* Secondary Foreground color */
+
+  /* Image background  */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.85)
@@ -58,18 +64,25 @@
   transition: 0.2s ease-in-out;
 }
 
-.withImageBackground {
-  background-image: var(--imgcol), var(--imgbg);
-  background-size: cover;
-}
-
 body {
   width: 100vw;
   height: 100vh;
-  background-color: var(--bg);
+  background-color: var(--background);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.notransition {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.withImageBackground {
+  background-image: var(--imgcol), var(--imgbg);
+  background-size: cover;
 }
 
 #themeButton {
@@ -83,7 +96,7 @@ body {
   background-color: #00000000;
 }
 
-#themeButton__icon {
+#themeIcon {
   width: 25px;
   height: 25px;
 }
@@ -99,7 +112,7 @@ body {
 }
 
 .card {
-  background-color: var(--sbg);
+  background-color: var(--cards);
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }
@@ -127,14 +140,14 @@ body {
   justify-content: center;
 }
 
-.weatherBlock__date {
+.date {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
 }
 
-.weatherBlock__weather {
+.weather {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,48 +162,75 @@ body {
 #hour,
 #separator,
 #minutes {
-  font-size: var(--fsg);
+  font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
 }
 
 #month,
 #day {
-  font-size: var(--fsm);
+  font-size: var(--fg-date);
   font-weight: bold;
   color: var(--fg);
 }
 
 #day {
-  margin-left: 20px;
+  margin-left: 1.5rem;
 }
 
 #greetings {
-  font-size: var(--fss);
+  font-size: var(--fg-secondary);
   color: var(--fg);
 }
 
-.weather-icon img {
+.weatherIcon img {
   width: 70px;
   height: 70px;
 }
 
-.temperature-value p {
-  font-size: var(--fss);
+.weatherValue p {
+  font-size: var(--fg-secondary);
   font-weight: bolder;
   margin-left: 15px;
   color: var(--fg);
 }
 
-.temperature-description p {
-  font-size: var(--fss);
+.weatherDescription p {
+  font-size: var(--fg-secondary);
   margin-left: 15px;
   color: var(--fg);
 }
 
-.buttonLink {
+.reduceGap {
+  grid-gap: 2rem !important;
+}
+
+.removeGap {
+  grid-gap: 0 !important;
+}
+
+.linksBlock {
   grid-row: 3 / span 2;
+  grid-column: 1 / span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.linksBlockLeft {
+  grid-row: 1 / span 2;
   grid-column: 1 / span 2;
+}
+
+.linksBlockRight {
+  grid-row: 1 / span 2;
+  grid-column: 3 / span 2;
+}
+
+.buttonsContainer {
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -198,40 +238,40 @@ body {
   padding: 20px;
 }
 
-.buttonLink__link {
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.buttonLink__icon {
-  width: 3vh;
-  height: 3vh;
+.buttonIcon {
+  width: var(--icon);
+  height: var(--icon);
   color: var(--fg);
 }
 
-.buttonLink__link-1 {
+.button__1 {
   grid-row: 1;
   grid-column: 1;
 }
-.buttonLink__link-2 {
+.button__2 {
   grid-row: 1;
   grid-column: 2;
 }
-.buttonLink__link-3 {
+.button__3 {
   grid-row: 2;
   grid-column: 1;
 }
-.buttonLink__link-4 {
+.button__4 {
   grid-row: 2;
   grid-column: 2;
 }
-.buttonLink__link-5 {
+.button__5 {
   grid-row: 1;
   grid-column: 3;
 }
-.buttonLink__link-6 {
+.button__6 {
   grid-row: 2;
   grid-column: 3;
 }
@@ -242,34 +282,45 @@ body {
 .buttonLink__link:hover {
   background-color: var(--accent);
 }
-.buttonLink__link:hover svg {
+.button:hover svg {
   stroke: var(--sfg);
+}
+
+.listsContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3rem;
+  padding: 0.4rem;
 }
 
 .list {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 .list__1 {
-  grid-column: 3;
-  grid-row: 3 / span 2;
+  grid-column: 1;
+  grid-row: 1 / span 2;
 }
 .list__2 {
-  grid-column: 4;
-  grid-row: 3 / span 2;
+  grid-column: 2;
+  grid-row: 1 / span 2;
 }
-.list__head {
-  margin-top: 3vh;
+.listIcon {
+  /* margin-top: 3vh; */
   margin-bottom: 2vh;
   color: var(--fg);
-  width: 3vh;
-  height: 3vh;
+  width: var(--icon);
+  height: var(--icon);
 }
-.list__link {
+.listItem {
   text-decoration: none;
-  font-size: var(--fses);
+  font-size: var(--fg-list);
   color: var(--fg);
   margin-top: 1vh;
   padding: 8px 12px;
@@ -278,10 +329,9 @@ body {
   text-align: center;
   width: 80%;
 }
-.list__link:hover {
+.listItem:hover {
   background-color: var(--accent);
   color: var(--sfg);
-  
 }
 
 /* M E D I A - Q U E R I E S */
@@ -302,15 +352,18 @@ body {
   }
 
   #greetings {
-    font-size: var(--fss);
+    font-size: var(--fg-secondary);
   }
 
-  .list {
+  .linksBlockRight {
     display: none;
   }
 
-  .buttonLink {
+  .linksBlockLeft {
     grid-column: 1 / span 4;
+  }
+
+  .button {
     grid-gap: 3vw;
     padding-left: 100px;
     padding-right: 100px;
